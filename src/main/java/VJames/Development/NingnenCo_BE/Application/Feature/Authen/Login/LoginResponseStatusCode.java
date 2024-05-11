@@ -1,0 +1,14 @@
+package VJames.Development.NingnenCo_BE.Application.Feature.Authen.Login;
+
+public enum LoginResponseStatusCode {
+    USER_IS_NOT_FOUND,
+    USER_IS_LOCKED_OUT,
+    USER_PASSWORD_IS_NOT_CORRECT,
+    USER_EMAIL_IS_NOT_CONFIRMED,
+    USER_IS_TEMPORARILY_REMOVED,
+    INPUT_EMPTY_VALUE,
+    INPUT_VALIDATION_FAIL,
+    INVALID_PASSWORD_FORMAT,
+    LOGIN_SUCCESS,
+    DATABASE_OPERATION_FAIL,
+}
